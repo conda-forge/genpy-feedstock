@@ -14,14 +14,15 @@ Summary: AST-based Python source generation
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/genpy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/genpy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/genpy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/genpy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/genpy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/genpy-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/genpy-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/genpy-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/genpy/badges/version.svg)](https://anaconda.org/conda-forge/genpy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/genpy/badges/downloads.svg)](https://anaconda.org/conda-forge/genpy)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-genpy-green.svg)](https://anaconda.org/conda-forge/genpy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/genpy.svg)](https://anaconda.org/conda-forge/genpy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/genpy.svg)](https://anaconda.org/conda-forge/genpy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/genpy.svg)](https://anaconda.org/conda-forge/genpy) |
 
 Installing genpy
 ================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
