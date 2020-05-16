@@ -7,3 +7,4 @@ appveyor:
 
 bot:
   automerge: true
+conda_forge_output_validation: true
