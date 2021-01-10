@@ -5,11 +5,11 @@ Home: http://pypi.python.org/pypi/genpy
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/genpy-feedstock/blob/master/LICENSE.txt)
 
 Summary: AST-based Python source generation
 
-
+Development: http://github.com/inducer/genpy
 
 Current build status
 ====================
