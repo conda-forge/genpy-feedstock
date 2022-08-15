@@ -1,6 +1,6 @@
 {% set name = "genpy" %}
-{% set version = "2021.1" %}
-{% set sha256 = "9bc062fa98c5c466ff464d8974be81a6bf67af9247b5e5176215ad1e81a6cdac" %}
+{% set version = "2022.1" %}
+{% set sha256 = "14665b4255206c98e7ba20da292fef565ada315985175700424ed2dda3d65f1e" %}
 
 package:
   name: {{ name|lower }}
